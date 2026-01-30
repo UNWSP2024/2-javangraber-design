@@ -3,7 +3,7 @@
 
 def average_age():
 
-    #Get User Input
+    #Get user input
     friend1_age = int(input('What is the age of the first friend? '))
     friend2_age = int(input('What is the age of the second friend? '))
     friend3_age = int(input('What is the age of the third friend? '))
