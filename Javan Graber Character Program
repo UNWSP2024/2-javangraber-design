@@ -16,4 +16,5 @@ def personal_information():
     #Give any college major
     print('Computer Science and Engineering')
 
+#Line which calls the above function
 personal_information()
