@@ -19,5 +19,5 @@ def average_age():
     #Print the results
     print('The average age is', average_age)
 
-# Line which calls the above function.
+#Line which calls the above function.
 average_age()
