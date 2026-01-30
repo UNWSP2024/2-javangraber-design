@@ -11,15 +11,15 @@ def calculate_total_purchase():
 
     #Get the subtotal and display it
     sub_total = item1 + item2 + item3 + item4 + item5
-    print(f'The subtotal is {sub_total:.2f}')
+    print(f'The subtotal is {sub_total:,.2f}')
 
     #Calculate the sales tax if 7% and display it
     sales_tax = sub_total * .07
-    print(f'The sales tax is {sales_tax:.2f}')
+    print(f'The sales tax is {sales_tax:,.2f}')
 
     #Calculate the total and display it
     total = sub_total + sales_tax
-    print(f'The total is {total:.2f}')
+    print(f'The total is {total:,.2f}')
 
 
 calculate_total_purchase()
