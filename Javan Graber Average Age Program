@@ -3,18 +3,15 @@
 
 def average_age():
 
-    #Get user input
+    #Get User Input
     friend1 = int(input('What is the age of the first friend? '))
     friend2 = int(input('What is the age of the second friend? '))
     friend3 = int(input('What is the age of the third friend? '))
     friend4 = int(input('What is the age of the fourth friend? '))
     friend5 = int(input('What is the age of the fifth friend? '))
 
-    #Sum ages
-    sum_ages = friend1 + friend2 + friend3 + friend4 + friend5
-
-    #Average the ages
-    average_age = (sum_ages / 5)
+    #Average the ages by addition and division
+    average_age = ((friend1 + friend2 + friend3 + friend4 + friend5) / 5)
 
     #Print the results
     print('The average age is', average_age)
