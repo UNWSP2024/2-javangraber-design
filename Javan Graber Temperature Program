@@ -9,7 +9,8 @@ def temp_conversion(celsius):
     # Calculate the Fahrenheit equivalent.
     fahrenheit = 0.0
     ######################
-    # WRITE YOUR CODE HERE
+    # Use the formula to perform the temperature conversion
+    fahrenheit = (9 / 5) * celsius + 32
     ######################    
 
 
