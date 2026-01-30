@@ -1,0 +1,20 @@
+#Programmer name: Javan Graber
+#Date: January 29, 2026
+
+def personal_information():
+
+    #Give fictional name
+    print('Harold Martin')
+
+    #Give fictional address, location, and ZIP code
+    print('123 Beautiful Lane Road')
+    print('Nashville, TN 55893')
+
+    #Give fictional telephone number
+    print('612-894-7878')
+
+    #Give any college major
+    print('Computer Science and Engineering')
+
+#Line which calls the above function.
+personal_information()

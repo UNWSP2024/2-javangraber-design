@@ -1,0 +1,21 @@
+#Programmer: Javan Graber
+#Date: January 29, 2026
+
+def average_age():
+
+    #Get user input
+    friend1_age = int(input('What is the age of the first friend? '))
+    friend2_age = int(input('What is the age of the second friend? '))
+    friend3_age = int(input('What is the age of the third friend? '))
+    friend4_age = int(input('What is the age of the fourth friend? '))
+    friend5_age = int(input('What is the age of the fifth friend? '))
+
+    #Average the ages by addition and division
+    average_age = ((friend1_age + friend2_age + friend3_age + friend4_age +
+                    friend5_age) / 5)
+
+    #Print the results
+    print('The average age is', average_age)
+
+#Line which calls the above function.
+average_age()
